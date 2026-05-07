@@ -159,3 +159,7 @@ Quiero que recuerdes Que me llamo "Esteban Calabria" que soy Microsoft Certified
 * Human in the loop.
 * Alucinaciones.
 * Grounding
+
+# PRoxima Clase
+
+* Ver lo del Canvas!! <<<
