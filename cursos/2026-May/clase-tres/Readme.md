@@ -90,7 +90,73 @@ Dame la lista de barrios tradicionales siguiendo esta plantilla "# Barrio
   * Como genero diagramas con la IA
 * Solucion
   * Generar los diagramas utilizando el lenguaje mermaid
-   * https://mermaid.live/edit
+    * https://mermaid.live/edit
+
+```
+Actua como un experto en construccion y desarrollo de proyectos imbobiliarios. Generame un memaid que muestre un  gant de un proyecto de construccion donde tengo un terreno y quiero construir una casa. Tengo un terreno de 100 metros cuadrados. 
+```
+
+* Otro prompt : Flowchart
+
+```
+Busca informacion en internet. Queiro que me armes en mermaid un diagrama de flowchart con el organigrama de la empresa metrocubico.
+```
+
+* Otro Prompt : Pie
+
+```
+Dame un diagrama mermadi de tipo pie donde se vean los 5 barrios mas importantes de tucuman y el precio del metro cuadriado
+```
+
+---
+
+# Herramientas de 365
+
+# Excel
+
+* Conceptos claves
+  * Tabla dinamica (Pivot Table)
+  * Grafico dinamico (Pivot Graph)
+  * Segmentadores (Slicers)
+
+* GEnerar un documento de Excel nuevo
+* Abrir copilot
+
+```
+Generarme 100 filas con datos de prueba. Tengo una lista de todos los proyectos inmobiliarios en desarrollo en San Miguel de tucuman. Quiero ubicacion terreno (direccion), barrio, metros cuadrados, Pocentaje de finalizacion, costo actual, costo estimado, (Hay varios proyectos en cada barrio)
+```
+
+## Tablas Dinamicas (Pivot Table)
+
+* Partir de los datos generados con Copilot pidamos una "pivot Table"
+
+```
+Generame una hoja nueva donde se vea una tabla dinamica (pivot table) para representar e interactuar con los datos
+```
+
+## Grafico Dinamico (Pivot Chart)
+
+```
+Generame una hoja nueva donde se vea un grafico dinamico (pivot Chart) para representar e interactuar con los graficos
+```
+
+## Dashboard
+
+```
+Crear un dashboard inmobiliario interactivo usando tablas dinamicas, graficos dinamicos y segementadores (slices)
+```
+
+---
+
+# Agentes
+
+## Agentes incoporados en 365 : Angente Analista
+
+```
+Haceme un analisis de todos los datos del doumento. Decime particularmente cuales son los proyectos que se estan yendo de control. Ademas de ellos quiero una analisis detallado de todo mi documento
+```
+
+* El agente analista tiene la capacidad de tomar documentos de excel y ejecutar codigo en python para hacer un analisis (tipo data science)
 
 # Glosario
 
