@@ -94,7 +94,43 @@ Las preguntas que se respondan con un texto corto o que sean multiple choice. Em
     * Panel de expertos
       * Se vende un terreno en Yerbabuena, Tucuman en Alto Verde 3. Decime si me conviene comprarlo. Armes un panel de expertos donde cada uno me haga su analisis corto con pros, contras y cuestiones a considerar.
 
+---
 
+
+### Formato
+
+* Para esta actividad voy a pedirle a la IA una lista
+
+```
+Haceme una lissta de barrios de Yerba Buena, Tucuman. De cada barrio quiero saber poblacion aproximada, costo metro cuadraoda, transporte, edificios, actividad comercial, servicios, sanatorio cerca (Busca en internet si no encontras informacion y estima)
+```
+
+* Formatos de Salida
+  * Formatos Tecnicos
+    * JSON, XML
+  * Formato Pseuso de Tecnico
+    * HTML
+      * Me sirve para generar pdfs mas elegantes
+      * Puedo hacer una aplicacion como un informe interactivo
+
+* Pasos para trabajar con HTML
+
+* Pedirle una lista o un informe a Copilto en html que se vea elegante y profesiona
+* Utilizar la vista previa para ver como quedo e ir iterandolo para mejorarlo
+* Copiamos el texto en un block de notas en un archivo con extension .html
+* Le damos doble click y lo imprimimos como PDF
+      
+  * Formato para interactuar con Excel
+    * CSV (Comma Sepparated Values)
+
+```
+Me podes generar la lista de barrios como csv
+```
+
+> [!NOTE]
+> Tambien puedo generarlo directamente en Excel
+   
 # Glosario
 
 * Grounding 
+* No deterministica
