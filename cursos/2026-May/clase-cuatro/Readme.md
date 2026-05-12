@@ -108,6 +108,9 @@ Redacta el correo listo para copiar y pegar, sin explicaciones adicionales.
 
 # Galeria de Prompts
 
+> [!NOTE]
+> Solo modo profesional
+
 * Cuanto uno estudia prompt engineering es probable que muchas veces repita prompts similares
 * Puedo pasarle por arriba a un prompt y en el menu contextual guardarlo en la galeria de prompts
 * Arriba se puede acceder en los ... a la galeria de prompts
@@ -115,6 +118,27 @@ Redacta el correo listo para copiar y pegar, sin explicaciones adicionales.
   * Tus propios prompts que guardase antes
 * Probemos por ejemplo el prompt "Mantenerse Informado"
 * En la parte de mis prompts puedo ver mis prompts guardados
+* Los prompts se pueden compartir
+* En la galeria de indicaciones arriba en la ruedita se peude ver los prompts compartidos
+  
+---
+
+# Agendar Prompts
+
+* En Copilot se pueden automatizar prompts
+ * Ejemplo
+    * Todos los lunes a las 5 de la tarde hacer esta busqueda en intenet y hace me un informe
+    * Todos los martes a las 3 haceme un resumen con las tareas pendientes que recibi por mail
+
+> [!NOTE]
+> Solo me funciono en el modo profesional
+
+```
+Quiero que me hagas un informe con todos los terrenos que estan dispoibles para la venta en Yerba Buena, Tucuman
+```
+
+* Al pasarle por arriba al prompt tenemos la opcion de Agendar prompts para que ejecute automaticamente
+
 ---
 
 # Creacion de Agentes
