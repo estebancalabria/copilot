@@ -142,3 +142,32 @@ Quiero que me hagas un informe con todos los terrenos que estan dispoibles para 
 ---
 
 # Creacion de Agentes
+
+* Cuando ademas de un prompt personalizado
+   * Definir el system prompt
+   * Definir la informacion precisa que necesito que use Copilot
+   * ...
+   * (Que actualice automaticamente algunos documentos) <<< Caso mas avanzado
+* Un agente es un Copilot especializado en una tarea determinada
+  * Lo mas habitual es que en un entorno corporativo cada rol utilice su propio agente
+* Se puede generar desde dos lugares distinto
+  * La parte de Agentes en 365 <<< Esta vemos hoy
+  * El copilot Studio
+
+* Abajo de agentes tengo nuevo agente.
+* Le doy primero una instruccion general
+
+```
+Quiero un agente que sea experto en envio de correos
+```
+
+* En una solapa de word voy a crear un document
+
+```
+Creame un documento que sea un protocolo de envio de correos de la empresa. Siempre requiere investigar al destinatario, mencionar algun detalle de esa persona. Empieza los correos preguntando como esta. Este es un documento estandar para todos los empleados de mi organizacion
+```
+
+* Ese word va a ser parte del conocimiento el cual tiene que utilizar mi agente
+
+* Podemos utilizar el agente en el menu de la izquierda donde aparece tambien como agente disponible
+* Lo puedo citar en un chat comun con el @
