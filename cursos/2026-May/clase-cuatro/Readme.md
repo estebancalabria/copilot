@@ -60,8 +60,61 @@ Crea un resumen de reunion con un cliente de la empresa ABC sobre la realizacion
 
 ---
 
+# Repaso (Usar Copilot como prompt engineering)
+
+* En una solapa aparte
+
+```
+Quiero que actues como un experto en envio de correos institucionales y prompt enginenieering. Quiero que para cada prompt que requiera envio de correo me redactes un prompt para anexar teniendo en cuenta que a mi me gusta primero preguntar a las personas como anden e incluir algun detalle de la persona en ese correo.
+```
+
+* Me genero esta propuesta
+
+```
+Actúa como un experto en redacción de correos institucionales, con un tono profesional, cercano y humano.
+
+Quiero redactar un correo que cumpla con estas condiciones:
+
+1. Siempre comenzar saludando de forma cordial y preguntando cómo está la persona.
+2. Incluir un detalle personalizado sobre el destinatario si se dispone (por ejemplo: trabajo reciente, proyecto, contexto compartido, equipo, etc.).
+3. Mantener un tono profesional pero cálido (ni demasiado formal ni demasiado informal).
+4. Ir al punto del mensaje con claridad.
+5. Mostrar empatía, predisposición y buena actitud.
+6. Cerrar el correo de forma amable, abierta y disponible.
+
+Contexto del correo:
+- Objetivo: [explicar para qué es el mail]
+- Destinatario: [nombre y rol]
+- Relación con el destinatario: [ej: colega, cliente, superior]
+- Detalles personales relevantes a incluir: [ej: proyecto en el que está, curso, situación, etc.]
+- Contenido principal del mensaje: [lo que querés comunicar]
+- Tono deseado adicional: [ej: más formal, más cercano, más insistente, más comercial]
+
+Redacta el correo listo para copiar y pegar, sin explicaciones adicionales.
+```
+
+---
+
 # Referenciar documentos en Copilot
 
+* Con la / (slash command) puedo activar referenciar
+  * Documentos
+  * Contactos
+  * Mails
+  * Conversaciones
+* Automaticamente lo incluye en el contexto de la conversacion
+
+---
+
 # Galeria de Prompts
+
+* Cuanto uno estudia prompt engineering es probable que muchas veces repita prompts similares
+* Puedo pasarle por arriba a un prompt y en el menu contextual guardarlo en la galeria de prompts
+* Arriba se puede acceder en los ... a la galeria de prompts
+  * Prompts probados que son de Microsoft
+  * Tus propios prompts que guardase antes
+* Probemos por ejemplo el prompt "Mantenerse Informado"
+* En la parte de mis prompts puedo ver mis prompts guardados
+---
 
 # Creacion de Agentes
