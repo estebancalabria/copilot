@@ -130,6 +130,12 @@ Me podes generar la lista de barrios como csv
 > [!NOTE]
 > Tambien puedo generarlo directamente en Excel
    
+# PRoxima Clase
+
+* Formato para especificarle exactamenente como quiero la salida para que sea menos deterministica
+* Vamos a ver como hacer Graficos con IA
+
+
 # Glosario
 
 * Grounding 
