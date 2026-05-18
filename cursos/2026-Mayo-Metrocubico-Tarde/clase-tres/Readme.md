@@ -146,3 +146,12 @@ Generame una hoja nueva donde se vea un grafico dinamico (pivot chart) para rerp
 ```
 Creame un dashboard inmobiliario interactivo  usando tablas dinamicas, graficos diniamicos y segmentadores (Slices). Hacerlo en un libro nuevo
 ```
+
+---
+
+# Proxima Clase
+ 
+* Agente que ya trae copilot
+   * Agente Analista
+
+
