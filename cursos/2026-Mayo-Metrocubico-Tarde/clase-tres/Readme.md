@@ -104,7 +104,7 @@ Quiero que me generes un diagrama de pie en mermaid donde se pueda visualizar el
 
 * Genero esto
 
-```memaid
+```mermaid
 pie title Costo estimado por m² (USD) por barrio - Yerba Buena (valores centrales)
     "Centro / Av. Aconquija (≈1200)" : 1200
     "Barrio San José (≈900)" : 900
@@ -116,6 +116,13 @@ pie title Costo estimado por m² (USD) por barrio - Yerba Buena (valores central
     "Solar del Cerro / Zona Shopping (≈1450)" : 1450
     "Zonas periféricas / expansión (≈550)" : 550
 ```
+---
 
-# 
+# Copolit en Excel
+
+* Abrir copilot en excel y darle este prompt
+
+```
+Generarme 100 filas con datos de prueba de proyectos inmobiliarios en el barrio de Yerba Buena, Tucuman.Queiro ubicacion, Barrio, metros cuadrados, porcentaje de inalizacion, costo actual, costo estimado. (Hay Varios proyectos)
+```
 
