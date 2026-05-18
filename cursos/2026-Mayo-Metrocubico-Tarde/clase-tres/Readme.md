@@ -126,3 +126,23 @@ pie title Costo estimado por m² (USD) por barrio - Yerba Buena (valores central
 Generarme 100 filas con datos de prueba de proyectos inmobiliarios en el barrio de Yerba Buena, Tucuman.Queiro ubicacion, Barrio, metros cuadrados, porcentaje de inalizacion, costo actual, costo estimado. (Hay Varios proyectos)
 ```
 
+## Tablas Diamicos (Pivot Table)
+
+```
+Generame una hoja nueva donde se vea una tabla dinamica (pivot table) para represetnar e interacturar con los datos
+```
+* Y lo genera
+
+## Graficos Dinamicos (Pivot Charts)
+
+```
+Generame una hoja nueva donde se vea un grafico dinamico (pivot chart) para rerpesentar e interacturar con la informacion.
+```
+* Y lo genera
+
+# Dashboards Interactivos
+
+* Clave para la toma de decisiones
+```
+Creame un dashboard inmobiliario interactivo  usando tablas dinamicas, graficos diniamicos y segmentadores (Slices). Hacerlo en un libro nuevo
+```
