@@ -24,6 +24,12 @@ Documentar:
 
 ---
 
+## Cuestionario
+
+> Luego de realizar la seccion anterior, completar el siguiente formulario : https://forms.gle/3F11eHeZVizr9imU8
+
+---
+
 ## Actividad 2 - Investigación con Copilot
 
 Utilizar Copilot para obtener un resumen de las noticias del día.
@@ -32,6 +38,12 @@ Documentar:
 - Prompt utilizado.
 - Resumen generado.
 - Reflexión sobre la utilidad de Copilot para analizar información actual.
+
+---
+
+## Cuestionario
+
+> Luego de realizar la seccion anterior, completar el siguiente formulario : https://forms.gle/X8LwXRhJQ2Si5VMz5
 
 ---
 
@@ -45,6 +57,12 @@ Documentar:
 - Qué información fue incorrecta o qué supuesto realizó la IA.
 
 Analizar cómo podría mejorarse la interacción para obtener una respuesta más confiable.
+
+---
+
+## Cuestionario
+
+> Luego de realizar la seccion anterior, completar el siguiente formulario : https://forms.gle/gNpAA9gwKjWvL8rt8
 
 ---
 
@@ -66,6 +84,4 @@ Documentar:
 
 ---
 
-## Entrega
-
-Completar el cuestionario en Google Forms con las respuestas y evidencias de las actividades realizadas.
+> Luego de realizar la seccion anterior, completar el siguiente formulario : https://forms.gle/G8Fp9W9q9P8U1P6w8
