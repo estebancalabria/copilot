@@ -15,6 +15,11 @@
 * Agentes
   * Un chatbot especializado en una tarea especifica con capacidades aumentadas
 
+# Contacto del Profe
+
+* Linkedin : https://www.linkedin.com/in/esteban-calabria-7a44401a/
+* Instagram : https://www.instagram.com/mct.esteban.calabria/
+
 # Ecosistema Copilot
 
 * Existen muchas IA
@@ -66,6 +71,8 @@
        * El que usan los programadores para que la IA los ayude
     * Copilot en herramientas 365
        * Depende como lo tengan configurado y la licencia
+
+
 
 # Glosario
 
