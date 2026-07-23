@@ -106,6 +106,9 @@ Haceme un "roast" sobre la informacion que tengas de mi.
 Haceme una investigacion online sobre la empresa SMW agro.
 ```
 
+* Investigacion:
+  * https://copilot.microsoft.com/shares/oaw25LR6PBjjBnDVjWu17
+
 ## Capacidad de generar contenido multimedia
 
 * Esto se puede hacer en la opcion "imaginar" de copilot chat o en..
