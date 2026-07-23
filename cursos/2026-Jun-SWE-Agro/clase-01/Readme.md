@@ -19,9 +19,11 @@
 
 * Existen muchas IA
   * ChatGPT
+    * OpenAI
     * Muy bueno para emular conversacion humana
     * https://chatgpt.com/
-  * Claude 
+  * Claude
+    * Anthropic
     * Muy buena para lo tecnico
     * https://claude.ai/
   * Gemini
@@ -35,11 +37,37 @@
 * Copilot
   * Es un ecosistema de IAs
   * Mas focalizado para el uso empresarial que domestico
+  * Es una pasarela a modeos de IA de terceros
+    * Principalmente a ChatGPT
+    * Elije el modelo mas adecuado segun la tarea
+       * Ejemplo, elegir claude para tareas tecnicas
+    * Tanto el prompt como la respuestas pasan por filtro para asegurar cumplimiento
+        * Que no sean ofensivas
+        * Que no afecte la imagen de nadie
+        * Que no pueda traer incovenientes a la organizacion
+        * etc
   * Opcione de Copilot
     * Copilot Chat
-      * https://copilot.microsoft.com/
+       * https://copilot.microsoft.com/
+       * No requiere de una licencia
+     * Copilot 365
+       * https://www.office.com/
+       * https://m365.cloud.microsoft/
+       * Requiere una licencia emprearial
+       * Integrado con el ecosistema 365
+       * Esta pensado para uso empresarial
+    * Copilot para Windows
+       * Es una aplicacion de escritorio
+    * Copilot en el Edge
+       * Me permite sacar informacion de la pagina que estoy nagegando
+       * Me pedmite contrastar lo que estoy viendo con otras fuentes
+       * Solamente tengo que abrir el navegador edge y apretar el icono de copilot que aparece arriba a la izqueirda
+    * Github copilot
+       * El que usan los programadores para que la IA los ayude
+    * Copilot en herramientas 365
+       * Depende como lo tengan configurado y la licencia
 
 # Glosario
 
 * Prompt : Instruccion que uno le da a la IA para que me genere una respuesta
-* Modelo de Lenguaje o LLM : 
+* Modelo de Lenguaje o LLM 
