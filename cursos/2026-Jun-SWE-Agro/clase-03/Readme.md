@@ -91,8 +91,57 @@ Devolver solamente el mensaje persuasivo como para copiar y pegar sin acotar nad
 
 ## Tips
 
+### Pedirle solamente el conetido
+
 * Decirle como parte del prompt
   * "Devolver solamente el <OBJETIVO> para copiar y pegar sin acotar nada mas
+
+### Usar el modo dictado para mejores prompts
+
+* Tipo Para el contexto
+  * Escribir prompts "largos" explicando todo lo que te venga a la cabeza utilizando el modo dictado
+
+* No es lo mismo esto:
+
+```
+Haceme un mail para pedirle un aumento a mi jefe
+```
+
+* Que usando el modo dictado
+
+```
+Necesito escribir un mail para pedirle un aumento a mi jefe, pero necesito que sea un mail persuasivo. Además, considera que mi jefe es de Racing y siempre que le hablo de Racing se emociona. Quiero que el mail sea súper persuasivo y apele a su fibra sensible y su emocionalidad como empleado. Quiero que utilices todas las técnicas de persuasión que se te ocurran y que el que lea el mail no se pueda negar. Generame el correo, por favor.
+```
+
+### Usar lectura en voz alta
+
+* Para las respuestas largas se puede usar la lectura en voz alta para no tener que leer
+
+<img width="266" height="32" alt="image" src="https://github.com/user-attachments/assets/6034852f-d9dd-433f-917d-20da8c9da664" />
+
+
+### Usar a Copilot como experto en prompt engineering
+
+* La idea es agarrar y escribir un prompt como a mi me salga y pedirle a Copilot que me lo mejore
+* "Actua como experto en prompt engineering y mejorame este prompt <PROMPT>
+
+```
+Actua como experto en prompt engineering quiero que me mejores este prompt "Soy de la empresa SMW agro quiero que  me hagas una investigacion de mercado sobre la competencia y que venjas tengo que tengo que tener en cuenta quiero un informe util que me permita conocer el mercado y accionar. Devolver el prompt para copiar y pegar sin acotar nada mas."
+```
+
+* Me devuelve el prompt mejorado
+
+```
+Actúa como un analista senior de inteligencia de mercado especializado en el sector agroindustrial. Soy de la empresa SMW Agro y necesito que realices una investigación de mercado completa sobre nuestra competencia directa e indirecta. Incluye: análisis de competidores, productos y servicios que ofrecen, precios, posicionamiento, estrategias comerciales, canales de venta, ventajas competitivas, debilidades, tendencias del mercado, oportunidades y amenazas. Quiero un informe claro, accionable y orientado a decisiones estratégicas que me permita entender el mercado y definir acciones concretas para mejorar nuestra competitividad.
+```
+
+---
+
+## Prompt
+
+* Formula para prompts
+  * https://www.instagram.com/p/C5MDsQiR5cG/?img_index=1
+  * Tarea, Contexto, Persona/Rol, Ejemplo, Formato y Tono
 
 ## Contexto
 
@@ -129,3 +178,9 @@ Crear un evento en mi calendario hoy a las 13:00 que sea estudiar para el Az-500
 
 * Principios IA Responsable e MS
   * https://www.microsoft.com/en-us/ai/principles-and-approach
+
+---
+
+# Proxima clase
+
+* Tecnica de prompting Rol/Persona en detalle
