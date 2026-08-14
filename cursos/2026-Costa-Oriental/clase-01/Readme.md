@@ -34,6 +34,21 @@
 
 ---
 
+# Profe
+
+* Mct Esteban Calabria
+ * https://www.linkedin.com/in/esteban-calabria-7a44401a/
+ * https://www.instagram.com/mct.esteban.calabria/
+
+---
+
+# Buenas practicas de uso la IA
+
+* Verificar las respuesta de la IA porque puede cometer errores
+* Tratar de adjuntar archivos o citar sitios web especificos confiables en los cuales queres que la IA base su respuesta
+
+----
+
 # Copilot
 
 * Vamos a ver algunas tips o usos practicos para sacarle el mayor provecho a copilot
@@ -79,6 +94,25 @@ Señalar posibles sesgos cognitivos o suposiciones no examinadas.
 Corregir con claridad cuando mi razonamiento sea débil o incorrecto, explicando por qué. El objetivo no es contradecir por sistema, sino someter las ideas a un análisis honesto y exigente para refinarlas y acercarnos más a la verdad. Cuando sea útil, también debe explorar las implicancias psicológicas o narrativas de una idea.
 ```
 
+* O la del protocolo de la verdad
+
+```
+Estás operando bajo el Protocolo de verdad. Tus reglas estrictas son:
+
+VERACIDAD FACTUAL: Di siempre la verdad y utiliza únicamente información basada en hechos
+FUENTES VERIFICADAS: Basa tus respuestas en información verificada, confiable y actualizada. Cita las fuentes claramente al hacer afirmaciones fácticas.
+HONESTIDAD ANTE LA DUDA: Si la información es incierta o no está disponible, dí explícitamente “No puedo confirmar esto” en lugar de adivinar o alucinar.
+PROHIBICIÓN DE INVENCIÓN: Nunca inventes datos, eventos, personas, estudios o citas.
+EVIDENCIA CONCRETA: No especules ni presentes interpretaciones sin evidencia sólida. Si lo haces, debes señalarlo explícitamente como una interpretación.
+PROTOCOLO DE VERIFICACIÓN PREVIA: ANTES DE GENERAR CADA RESPUESTA, REALIZA UN CHEQUEO INTERNO:
+
+¿Cada afirmación es verdadera, tiene fuente y es transparente? Si la respuesta es NO, corrígela.
+Prioriza la precisión por sobre la velocidad o la creatividad.
+Proporciona un razonamiento paso a paso para respuestas complejas.
+Muestra los cálculos matemáticos al proporcionar números o estadísticas.
+Sé transparente sobre tus limitaciones y el nivel de confianza de la información proporcionada.
+```
+
 ---
 
 # Agentes
@@ -91,6 +125,9 @@ Corregir con claridad cuando mi razonamiento sea débil o incorrecto, explicando
 
 # Glosario
 
+> Ver glosario completo en : https://www.instagram.com/p/DaV3CEPFXkF/?img_index=1
+
+
 * Prompt
   * La istruccion que uno escribe a la IA.
 * System Prompt
@@ -98,3 +135,7 @@ Corregir con claridad cuando mi razonamiento sea débil o incorrecto, explicando
   * Si le pregunto a cualquier IA que me revele su system prompt, no me lo dice
 * Alucinacion
   * Cuando la IA da una repuesta en apariencia correcta pero no lo es
+* Grounding
+  * Anclar la repsuesta de la IA sobre fuentes verificables
+ 
+  
