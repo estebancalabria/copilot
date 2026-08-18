@@ -94,11 +94,12 @@ Redactame un correo para solicitar presupuesto por pallets y cajas. Un mail con 
 
 ---
 
-# Generacion de Imagen
+## Generacion de Imagen
 
 * Copilot permite utilizar ademas de un modelo de generacion de texto, modelos de generacion de imagenes
 
-![Uploading image.png…]()
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/b7cc8f14-07b2-4fc7-a24f-2f087344fb2d" />
 
+* En biblioteca tambien quedan las imagenes generadas
 
-
+---
