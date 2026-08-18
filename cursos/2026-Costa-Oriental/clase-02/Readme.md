@@ -67,7 +67,15 @@ Redactame un correo para solicitar presupuesto por pallets y cajas. Un mail con 
 * En otros llm
   * En copilot se llama Paginas, pero en ChatGPT se llama "Canvas editable"
   * En copilot se llama Paginas, pero en Claude se llama "Artefacto"
-  
+
+## Generacion de Imagen
+
+* Copilot permite utilizar ademas de un modelo de generacion de texto, modelos de generacion de imagenes
+
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/b7cc8f14-07b2-4fc7-a24f-2f087344fb2d" />
+
+* En biblioteca tambien quedan las imagenes generadas
+
 
 ### Bilblioteca
 
@@ -91,15 +99,39 @@ Redactame un correo para solicitar presupuesto por pallets y cajas. Un mail con 
 ```
 @Word. Me podes generar un word con el documento
 ```
+---
+
+## Agendar programaciones
+
+* Puedo ejecutar periodicamente ciertos promps en forma automatica
+* Me puede mandar un correo una vez que se finaliza
+  * Los lunes pido normativas nuevas del mercao cambiario
+  * Todos los dias que me haga una investigacion sobre potenciales clientes
+ 
+* A mi me aparece asi abajo del prompt
+  
+<img width="765" height="190" alt="image" src="https://github.com/user-attachments/assets/df119751-d09e-4d63-8150-df4c33d42a4e" />
+
+* A ustedes les aparece asi 
+
+<img width="1254" height="719" alt="image" src="https://github.com/user-attachments/assets/ebe1cfb9-462d-4637-a69c-1e1e35d1838c" />
+
+* Voy a administar las programaciones aca
+
+<img width="399" height="400" alt="image" src="https://github.com/user-attachments/assets/aedd502a-b5f5-4411-991c-f04a5d783ab5" />
+
+* Una cuestion que me parece muy util es adjuntarle un archivo de One Drive a la programacion y en prompt al momento de ejecutarse va a utilizar la ultima version del archivo
+   * Es una forma de parametrizar el prompt de programacion
+
+* Ejemplos de uso
+  * Indicadores
+  * Archivos que se van cargando
+  * Distribucion de clientes
 
 ---
 
-## Generacion de Imagen
+# Proxima Clase
 
-* Copilot permite utilizar ademas de un modelo de generacion de texto, modelos de generacion de imagenes
-
-<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/b7cc8f14-07b2-4fc7-a24f-2f087344fb2d" />
-
-* En biblioteca tambien quedan las imagenes generadas
-
----
+* Editar el prompt
+* Guardar los prompts
+* Cuadernos / Noteebooks
