@@ -27,6 +27,8 @@
 
 * Consiste en tener un repositorio de plantillas de los prompts que mas me sirven en mi trabajo / dia a dia
 
+---
+
 ## Cotexto
 
 ### Tecnica de Prompting : Interaccion
@@ -44,6 +46,8 @@
 
 > [!NOTE]
 > Aplicar el patron de interaccion para un caso real de uso en su trabajo y comparar las respuestas sin aplicar y aplicando el patron
+
+---
 
 ## Persona
 
@@ -65,8 +69,54 @@
 
 * Ejemplos
   * https://github.com/estebancalabria/Intro-Ia/tree/main/Prompt%20Engineering/Patrones%20de%20Prompting/Persona
- 
-* 
+
+> [!NOTE]
+> Los ejemplos del patron persona estan en otro de los repositorios del profe de IA que les recomiendo que de paso le den una mirada
+
+---
+
+# Formato, Tono
+
+## Tecnica de prompting de Personalizaciond de salida
+
+* Consiste en conocer distitos formaos que le puedo pedir a la IA
+* Vamos a generar una lista de algo y pedirle a la IA que la vaya trabajando en disntos formatos
+  * "Dame una lista de series de Harlan Coben indicando el nombre, genero, anio lanzamiento, oracion de que trata, cantidad de temporadas, cantidad de capitulos, puntuacion imdb, actor principal"
+
+### Formatos Tecnicos
+
+* JSON
+   * Se usa en sistemas para guardar la informacion en forma estructurada y cargarla en sistemas.
+* XML
+   * Es anterior al json y  es el precursor del HTML
+
+### Formatos de Presentacion
+
+* PDF
+  * Generame la lista de peliculas en un pdf para exportar con un formato lindo y profesional
+  * NOTA: Copilot no me genero el PDF para exportar, lo probe para mostrar con ChatGPT
+  * En general los pdf que genera son bastantes rudimentarios
+* HTML
+  * Permite mejor formato
+  * Si no me gusta como se ve lo puedo iterar.
+  * "Entonces generame la salida en un unico archivo html que se vea profesioal, presentable, para mostrar a un jeve o cliente. Como un estilo visual impactante."
+  * (Generar HTML) -> (Generar archivo extension .html) -> (abrirlo con el navegador) -> (imprimit como pdf)
+  * Si no me gusta la salida lo puedo iterar y pedirlo como lo quiero
+
+> [!NOTE]
+> Esto lo probamos en ChatGPT y me mostro directamente la previsualizacion. A algunos estudiantes tambien copilot le mostro la previsualizacion
+
+* Documentos de 365
+  * Powerpoint
+     * Me lo podes generar cono ppt (powerpoint) podes guardarlo en mi one drive o darmelo para descargar
+  * Excel
+  * Words
+  * etc
+
+ > [!NOTE]
+> No se pierdan esta herramienta gamma para generar powerpoint : https://gamma.app/signup?r=cjucljp9heegmkv
+
+
 
 # Glosario
 
