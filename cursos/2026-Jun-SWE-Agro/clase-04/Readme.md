@@ -117,6 +117,11 @@
 > No se pierdan esta herramienta gamma para generar powerpoint : https://gamma.app/signup?r=cjucljp9heegmkv
 
 
+# PRoxima Clase
+
+* Completar el formulario : https://forms.gle/P6ngQ8pQLnmfpXMT9
+* Vamos a seguir estudiando la tecnica de prompting de formato/personalizacion de salida
+
 
 # Glosario
 
