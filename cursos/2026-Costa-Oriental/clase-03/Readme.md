@@ -136,3 +136,9 @@ Para cada pregunta decime que informacion usas, que analisis realizarias,  que v
 * Me arroja este informe
 ```
 ```
+
+---
+
+# Proxima 
+
+## Vamos a ver el plan
