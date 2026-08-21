@@ -135,6 +135,12 @@ Para cada pregunta decime que informacion usas, que analisis realizarias,  que v
 
 * Me arroja este informe
 ```
+Evaluar qué países y segmentos generan mayor rentabilidad usando Sales, Profit y margen de financials, mediante barras divergentes, para decidir dónde invertir o corregir pérdidas.
+Determinar qué productos impulsan crecimiento rentable usando Product, Year, Units Sold, Sales y Profit, mediante un gráfico combinado, para priorizar el portafolio comercial.
+Medir cómo las bandas de descuento afectan volumen y margen usando Gross Sales, Discounts, Units Sold, Sales y Profit, mediante dispersión, para definir políticas de descuento.
+Identificar estacionalidad en ventas y beneficios usando Date, Month, Year, Sales y Profit, mediante series temporales, para planificar campañas, inventario y objetivos.
+Analizar qué perfiles explican los niveles Alta, Media y Baja usando Country, Segment, Product, Sales y Profit, mediante barras apiladas, para priorizar operaciones y acciones correctivas.
+Revise los pasos y realice los cambios antes de continuar.
 ```
 
 ---
