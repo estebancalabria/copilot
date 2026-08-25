@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Dashboard Transporte 2026</title>
+<script type="module">import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs'; mermaid.initialize({startOnLoad:false,theme:'default'}); window.mermaid=mermaid;</script>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f1f5f9;color:#1e293b}header{background:#172554;color:white;padding:24px 32px}h1{margin:0 0 6px}.container{max-width:1400px;margin:24px auto;padding:0 20px}.controls,.chart,.card{background:white;border-radius:12px;box-shadow:0 2px 8px #0001}.controls{padding:18px;display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin-bottom:20px}select,button{padding:10px 14px;border:1px solid #cbd5e1;border-radius:8px;background:white;font-size:14px}button{background:#172554;color:white;cursor:pointer}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:20px}.card{padding:18px}.label{color:#64748b;font-size:13px}.value{font-size:25px;font-weight:bold;margin-top:7px}.chart{padding:20px;min-height:520px;overflow:auto}.title{font-size:20px;font-weight:bold;margin-bottom:15px}.mermaid{min-width:900px;text-align:center}@media(max-width:800px){.cards{grid-template-columns:repeat(2,1fr)}}
+</style></head>
+<body>
+<header><h1>Dashboard de transporte 2026</h1><div>Personas transportadas por destino</div></header>
+<div class="container">
+<div class="controls"><b>Visualización:</b><select id="tipo"><option value="stacked">Barras por mes y destino</option><option value="total">Total por mes</option><option value="destino">Total anual por destino</option><option value="porcentaje">Participación anual (%)</option></select><b>Destino:</b><select id="destino"><option>Todos</option><option>Córdoba</option><option>Buenos Aires</option><option>Santa Fe</option></select><button onclick="render()">Actualizar</button></div>
+<div class="cards"><div class="card"><div class="label">Total anual</div><div class="value" id="anual"></div></div><div class="card"><div class="label">Córdoba</div><div class="value" id="cordoba"></div></div><div class="card"><div class="label">Buenos Aires</div><div class="value" id="ba"></div></div><div class="card"><div class="label">Santa Fe</div><div class="value" id="sf"></div></div></div>
+<div class="chart"><div class="title" id="titulo"></div><div id="grafico"></div></div>
+</div>
+<script>
+const meses=['Enero','Febrero','Marzo','Abril','Mayo','Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'];
+const d={Cordoba:[12500,13100,14050,15020,15800,16200,17050,17500,16800,18000,19000,21000],BuenosAires:[30400,29750,31500,32200,33050,34500,36000,37200,35500,38000,39500,42000],SantaFe:[9800,10220,11010,11500,12040,12500,13020,13450,12900,13800,14200,15000]};
+const fmt=n=>n.toLocaleString('es-AR');
+function sum(a){return a.reduce((x,y)=>x+y,0)}
+function vals(sel){return sel==='Todos'?['Cordoba','BuenosAires','SantaFe']:[{'Córdoba':'Cordoba','Buenos Aires':'BuenosAires','Santa Fe':'SantaFe'}[sel]]}
+function cards(){let c=sum(d.Cordoba),b=sum(d.BuenosAires),s=sum(d.SantaFe);anual.textContent=fmt(c+b+s);cordoba.textContent=fmt(c);ba.textContent=fmt(b);sf.textContent=fmt(s)}
+async function render(){cards();let tipo=document.getElementById('tipo').value,sel=document.getElementById('destino').value,keys=vals(sel),spec='';
+if(tipo==='stacked'){titulo.textContent='Personas transportadas por mes y destino';let z=k=>keys.includes(k)?d[k].join(','):meses.map(()=>0).join(',');spec=`xychart-beta\n title Personas transportadas por mes - 2026\n x-axis ${meses.join(', ')}\n y-axis Personas 0 --> 80000\n bar [${z('Cordoba')}]\n bar [${z('BuenosAires')}]\n bar [${z('SantaFe')}]`;}
+else if(tipo==='total'){titulo.textContent=sel==='Todos'?'Total de personas transportadas por mes':'Personas transportadas por mes - '+sel;let a=sel==='Todos'?meses.map((_,i)=>d.Cordoba[i]+d.BuenosAires[i]+d.SantaFe[i]):d[keys[0]];spec=`xychart-beta\n title ${titulo.textContent}\n x-axis ${meses.join(', ')}\n y-axis Personas 0 --> 80000\n bar [${a.join(', ')}]`;}
+else if(tipo==='destino'){titulo.textContent='Total anual por destino';let a=keys.map(k=>sum(d[k]));spec=`xychart-beta\n title Total anual por destino\n x-axis ${keys.map(k=>k==='Cordoba'?'Córdoba':k==='BuenosAires'?'Buenos Aires':'Santa Fe').join(', ')}\n y-axis Personas 0 --> 500000\n bar [${a.join(', ')}]`;}
+else{titulo.textContent='Participación anual por destino (%)';let total=sum(d.Cordoba)+sum(d.BuenosAires)+sum(d.SantaFe);let a=keys.map(k=>Math.round(sum(d[k])/total*100));spec=`xychart-beta\n title Participación anual por destino (%)\n x-axis ${keys.map(k=>k==='Cordoba'?'Córdoba':k==='BuenosAires'?'Buenos Aires':'Santa Fe').join(', ')}\n y-axis Porcentaje 0 --> 100\n bar [${a.join(', ')}]`;}
+grafico.innerHTML='<div class="mermaid">'+spec+'</div>';await mermaid.run({nodes:grafico.querySelectorAll('.mermaid')});}
+['tipo','destino'].forEach(id=>document.getElementById(id).addEventListener('change',render));cards();render();
+</script></body></html>
