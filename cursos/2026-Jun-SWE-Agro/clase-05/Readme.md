@@ -305,3 +305,8 @@ plt.show()
 ```
 Me podes generar un html que muestre graficos en mermaid tipo dashboard que sea interactivo donde pueda cambiar la visualizacion segun lo que selecciono
 ```
+
+* Me genero este dashboard interactivo
+   * https://github.com/estebancalabria/copilot/blob/main/cursos/2026-Jun-SWE-Agro/clase-05/dashboard_transporte_mermaid_2026.html
+ 
+  
