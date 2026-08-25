@@ -239,7 +239,7 @@ Dada la informacion del volumne de personas transportadas utiliza el interprete 
 
 * Genero este codigo
 
-```
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -312,3 +312,90 @@ Me podes generar un html que muestre graficos en mermaid tipo dashboard que sea 
 ---
 
 ### Plantillas de salida : Markdown
+
+* El markdown es un lenguaje para darle formato al texto. Con reglas muy sencillas
+* UrL
+   * https://es.wikipedia.org/wiki/Markdown
+ 
+* Por ejemplo si uso este prompt
+```
+Generame un texto con titulos, subtitulos, bullets, citas, etc.
+```
+
+* Y copio la respuesta de la IA en un notepad veo que la IA por defecto generra markdown
+
+```
+Perfecto, Esteban. Te armo un texto completo con **títulos, subtítulos, bullets, citas y estructura profesional**, listo para usar en documentación o capacitación. Incluyo **Guided Links** donde tiene sentido para seguir profundizando.
+
+---
+
+## **📘 Transformación Digital en la Empresa Moderna**
+
+### **🚀 Introducción**
+La transformación digital dejó de ser una tendencia para convertirse en un requisito estratégico. Las organizaciones que adoptan tecnologías modernas logran mayor eficiencia, escalabilidad y capacidad de innovación.
+
+> *“La tecnología no es un costo: es un multiplicador de valor cuando se implementa con estrategia.”*
+
+---
+```
+
+* Este lenguaje lo vamos a utilizar para definir una plantilla exacta de como queremos la respuesta
+* Problema : Nunca les paso que generan una respuesta con la IA, la copian en word y luego el tiempo que gane en generar la respuesta le tengo que dedicar en cambiarle el formato en word
+
+> [!NOTE]
+> La idea es lograr que la IA sea mas deterministica y tener control total de la respuesta tal cual la quiero
+
+* La clase pasada hicimos una lista de las series de Harlan Coben ahora se la vamos a pedir con una plantilla como quiero exactamente la informaion
+
+```
+# [NOMBRE DE LA OBRA]
+
+## Informacion General
+
+* **Lanzamiento** : [Fecha de Lanzamiento]
+* **Genero** : [Genero de la obra]
+* **Ventas** : [Unidades vendidas]
+* **Puntaje** : [Clasificacion de la obra]
+
+## Argumento
+
+[Sinopsis del argumento, maximo 3 parrafos]
+
+## Cita
+
+> Una cita sobre la obra que pudo haber dicho el autor
+
+----
+
+[Al final un diagrama de PIE mermaid donde se muestra las obras segun las unidades vendidas]
+```
+
+* Voy a inclyir la plantilla en un prompt
+
+```
+Quiero una lista de las obras mas influyentes de Harlan Coben. Responde utilizando esta plantilla markdown 
+# [NOMBRE DE LA OBRA]
+
+## Informacion General
+
+* **Lanzamiento** : [Fecha de Lanzamiento]
+* **Genero** : [Genero de la obra]
+* **Ventas** : [Unidades vendidas]
+* **Puntaje** : [Clasificacion de la obra]
+
+## Argumento
+
+[Sinopsis del argumento, maximo 3 parrafos]
+
+## Cita
+
+> Una cita sobre la obra que pudo haber dicho el autor
+
+ Responder solamente la lista sin acotar nada como para copiar y pegar
+```
+
+> [!NOTE]
+> Te lo puede generar asi ya interepretado o como cita para copiar
+
+> [!NOTE]
+> Si esto lo copio en word voy a ver que me respeto el formato (Titulo1, Titulo2, Negrita, etc)
