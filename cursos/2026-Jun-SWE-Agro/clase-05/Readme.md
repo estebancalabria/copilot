@@ -297,3 +297,11 @@ plt.show()
 > [!NOTE]
 > Supongan que la IA esta rebelde y genera el codigo, pero no genera el grafico. Lo puedo ejecutar en google colab
 > https://colab.google/
+
+#### Formatos de Salida : HTML
+
+* Generacion de un dashboard interactivo con Mermaid
+
+```
+Me podes generar un html que muestre graficos en mermaid tipo dashboard que sea interactivo donde pueda cambiar la visualizacion segun lo que selecciono
+```
