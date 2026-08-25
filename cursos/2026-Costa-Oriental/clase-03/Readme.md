@@ -17,6 +17,19 @@
       * Se integra muy bien con el agente preconfigurado "Investigador/Researcher"
       * Intereso mucho
 
+# Casso de Uso Costa oriental
+
+* Con lo visto en la clase de hoy pueden implementar estos casos de uso:
+ * Finanzas – Concordancia Tipo de VIA / tipo de DUA: detección de anomalías (mismo prompt del Discount vs Sales/Profit)
+ * Finanzas – Control de operativas MASIVO: detección de anomalías / inconsistencias
+ * Finanzas – Control de volumen Marítimo: detección de anomalías
+ * Finanzas – Control de cadastros por modificaciones: detección de anomalías, comparando variaciones significativas
+ * RRHH ADM – Llegadas Tarde: indicador de minutos de tardanza a partir del control de horas (tabla dinámica / columna calculada)
+ * RRHH ADM – Rotación del personal: indicador mensual (tabla dinámica)
+ * RRHH ADM – Ausentismo/horarios incompletos: clasificación (mismo patrón Alta/Media/Baja de rentabilidad)
+
+> PAra estos casos de uso vamos a usar Excel y vamos a ver las herramientas para que puedan implementarlos
+
 # Agentes de 365
 
 ## Lineamientos generales
