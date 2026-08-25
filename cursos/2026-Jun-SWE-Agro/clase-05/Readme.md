@@ -308,5 +308,7 @@ Me podes generar un html que muestre graficos en mermaid tipo dashboard que sea 
 
 * Me genero este dashboard interactivo
    * https://github.com/estebancalabria/copilot/blob/main/cursos/2026-Jun-SWE-Agro/clase-05/dashboard_transporte_mermaid_2026.html
- 
-  
+
+---
+
+### Plantillas de salida : Markdown
