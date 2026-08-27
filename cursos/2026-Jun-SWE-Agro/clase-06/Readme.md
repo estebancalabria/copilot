@@ -148,5 +148,17 @@ Angente = LLM + Herramientas (capacidad de buscar web) + Base de Conocimiento (R
 
 ## Proyecto 
 
-* Vamos a hacer una aproximacion a un agente
+* Vamos a hacer una aproximacion a un agente con un proyecto en la version de copilot individual o nuevo agente en la version de 365
+* Usamos estas drecciones como fuentes de informacion:
 
+```
+https://raw.githubusercontent.com/estebancalabria/copilot/refs/heads/main/cursos/2026-Jun-SWE-Agro/clase-01/Readme.md
+https://raw.githubusercontent.com/estebancalabria/copilot/refs/heads/main/cursos/2026-Jun-SWE-Agro/clase-02/Readme.md
+https://raw.githubusercontent.com/estebancalabria/copilot/refs/heads/main/cursos/2026-Jun-SWE-Agro/clase-03/Readme.md
+https://raw.githubusercontent.com/estebancalabria/copilot/refs/heads/main/cursos/2026-Jun-SWE-Agro/clase-04/Readme.md
+https://raw.githubusercontent.com/estebancalabria/copilot/refs/heads/main/cursos/2026-Jun-SWE-Agro/clase-05/Readme.md
+https://raw.githubusercontent.com/estebancalabria/copilot/refs/heads/main/cursos/2026-Jun-SWE-Agro/clase-06/Readme.md
+```
+
+* Lo mas parecido a esto es notebooklm
+  * https://notebook.google.com/
