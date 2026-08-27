@@ -148,3 +148,5 @@ Angente = LLM + Herramientas (capacidad de buscar web) + Base de Conocimiento (R
 
 ## Proyecto 
 
+* Vamos a hacer una aproximacion a un agente
+
