@@ -237,11 +237,63 @@ flowchart TD
 
 ### Markdown
 
+* Es el lenguaje nativo que usa la IA para formatear las salidas
+* URL
+   * https://es.wikipedia.org/wiki/Markdown
+ 
+* El mermaid lo voy a utilizar para definir una plantilla exacta de como quiero que la IA me fenere la respuesta
+
+* Vamos a generar una plantilla en Markdown indicando como quiero que genere la salida
+
+```
+# [Titulo]
+
+# Fecha
+
+> [Fecha de la Reunion]
+
+# Participantes
+
+* Participante 1
+* Participante 2
+...
+* Participante 3
+
+# Puntos detacados (Mostrar los 3 puntos mas importantes)
+
+* [Punto 1]
+* [Punto 2]
+* [Punto 3]
+
+# Resumen
+
+[2 Parrafos de resumen de la reunion]
+
+# Cita destacada
+
+> [CITA DESTACADA QUE ALGUIEN DIJO Y AUTOR]
+```
+
+---
+
 ## Alucinaciones
 
 * Ejemplo de ChatGPT inventando jurisprudencia
   * https://www.infobae.com/colombia/2026/06/09/consejo-de-estado-fijo-reglas-para-usar-la-inteligencia-artificial-en-la-justicia-tras-caso-de-abogado-que-habria-inventado-sentencias-con-chatgpt/
 
+---
+
+# Glosario 
+
+* IA No es deterministica
+   * El mismo prompt dos veces puede generar una respuesta distinta
+
+---
+
+# Embellecer un documento
+
+* Herrmienta
+   * 
 
 # Tarea
 
