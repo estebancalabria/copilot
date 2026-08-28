@@ -89,6 +89,8 @@ ____________________________________
 Firma autorizada — Shenzhen Top Textiles Co., Ltd.
 ```
 
+### Generacion de Reportes a partir de imagenes
+
 ## Alucinaciones
 
 * Ejemplo de ChatGPT inventando jurisprudencia
