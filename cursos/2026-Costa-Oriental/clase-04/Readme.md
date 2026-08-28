@@ -139,6 +139,7 @@ En base a las imagenes adjintas generarme una tabla donde muestre unificado para
    * Es ideal para generar a partir de texto diagramas
 
 * Primero hay que conseguir en TEXTO la transcipcion de la reunion / Charla
+      Ejemplo : https://github.com/estebancalabria/copilot/blob/main/data/transcripcion-reunion.md
 
 * Luego usamos este prompt
 
@@ -171,7 +172,70 @@ gantt
     Pase a producción                                   :a8, 2026-04-15, 2d
     Capacitación a usuarios finales                     :milestone, a9, 2026-04-17, 0d
 ```
-  
+
+### Generación de flujos / diagramas de Gantt a partir de procedimientos “punto a punto” del cliente
+
+> [!NOTE]
+> En este caso en vez un gant voy a utilizar un flowchart en mermaid
+
+```
+Generación de flujos / diagramas de Gantt a partir de procedimientos “punto a punto” del cliente
+```
+
+* Esto me genero este flowchart
+
+```
+flowchart TD
+
+    A["Inicio<br/>Aviso de arribo"] --> B["Verificación de documentación<br/>B/L, Factura, Packing List"]
+    B --> C["Control de concordancia<br/>VIA / DUA"]
+
+    C --> D{¿VIA y DUA<br/>coinciden?}
+
+    D -- No --> E[Retener trámite]
+    E --> F{¿Corregido<br/>antes de 24 hs?}
+    F -- Sí --> G[Coordinación de descarga]
+    F -- No --> X[Escalar a Gerencia de Administración]
+
+    D -- Sí --> G
+
+    G --> H[Descarga física y cubicación]
+
+    H --> I{¿Existen diferencias<br/>de cadastro?}
+
+    I -- No --> J[Control operativa masiva]
+    I -- Sí --> K["Análisis conjunto<br/>Operaciones + Administración"]
+
+    K --> L{¿Variación<br/>supera 10%?}
+
+    L -- Sí --> M[Notificar al cliente]
+    L -- No --> J
+
+    M --> J
+
+    J --> N{¿Operativa<br/>masiva?}
+
+    N -- Sí --> O["Control de consistencia<br/>de volumen agregado"]
+    N -- No --> P[Ingreso definitivo al WMS]
+
+    O --> P
+
+    P --> Q["Validación final del<br/>Pedido de Venta en ODOO"]
+
+    Q --> R[Habilitación para facturación]
+
+    R --> S{¿Destino final<br/>o almacenamiento?}
+
+    S --> T[Despacho a destino final]
+    S --> U[Almacenamiento en depósito]
+
+    T --> V[Fin]
+    U --> V
+
+    X --> W[Fin por excepción]
+```
+
+### Markdown
 
 ## Alucinaciones
 
