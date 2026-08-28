@@ -293,8 +293,9 @@ flowchart TD
 # Embellecer un documento
 
 * Herrmienta
-   * 
+   * https://www.napkin.ai/
 
 # Tarea
 
 * Tomar excels con los que trabajan habitualmente, **hacer una copia**, y apliar el agente de copilot para excel a ver que provecho le pueden sacar
+* 
