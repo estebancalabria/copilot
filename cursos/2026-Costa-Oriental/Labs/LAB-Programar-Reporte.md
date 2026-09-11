@@ -5,20 +5,22 @@ Enviar un mail con el subject **"RV: PROGRAMACION 01-09-2026"** y citar el conte
 
 > Buenas Tardes chicos,
 > Para mañana nos estaría faltando los PL de:
->
-> EMZ | 578067 | INTERNATIONAL | 28 | 32
-> EMZ | 578067 | INTERNATIONAL | 4
-> EMZ | 578087 | INTERNATIONAL | | 2
-> EMZ | | SIEA
-> EMZ | | SIEA
-> EMZ | 577609 | FIVISA | | 10
-> EMZ | | SONY
-> EMZ | 578066 | STRTECH | | 1
-> EVI | 106796 | INTERNATIONAL | | 3
-> EVI | 106799 | INTERNATIONAL | | 4
-> EMZ | 577945 | GRAPHTEC | | 16
-> EMZ | 578008 | BRAY | | 1
->
+
+| | | | | |
+|---|---|---|---|---|
+| EMZ | 578067 | INTERNATIONAL | 28 | 32 |
+| EMZ | 578067 | INTERNATIONAL | 4 | |
+| EMZ | 578087 | INTERNATIONAL | | 2 |
+| EMZ | | SIEA | | |
+| EMZ | | SIEA | | |
+| EMZ | 577609 | FIVISA | | 10 |
+| EMZ | | SONY | | |
+| EMZ | 578066 | STRTECH | | 1 |
+| EVI | 106796 | INTERNATIONAL | | 3 |
+| EVI | 106799 | INTERNATIONAL | | 4 |
+| EMZ | 577945 | GRAPHTEC | | 16 |
+| EMZ | 578008 | BRAY | | 1 |
+
 > Muchas gracias!!
 
 ## Paso 2
@@ -26,12 +28,14 @@ Enviar un mail con el subject **"RV: PROGRAMACION 02-09-2026"** y citar el conte
 
 > Buenas tardes!
 > Les pido nos envíen los PL
->
-> EMZ | 578143 | INTERNATIONAL | | 797 | 1
-> EMZ | | SIEA
-> EMZ | 578017 | CARLA BESOLA PAOLINO | | 143691 | 2
-> EMZ | 577950 | EXPEDITORS - ZOETIS | | 143679 | 3
->
+
+| | | | | | |
+|---|---|---|---|---|---|
+| EMZ | 578143 | INTERNATIONAL | | 797 | 1 |
+| EMZ | | SIEA | | | |
+| EMZ | 578017 | CARLA BESOLA PAOLINO | | 143691 | 2 |
+| EMZ | 577950 | EXPEDITORS - ZOETIS | | 143679 | 3 |
+
 > Muchas gracias!
 
 ## Paso 3
