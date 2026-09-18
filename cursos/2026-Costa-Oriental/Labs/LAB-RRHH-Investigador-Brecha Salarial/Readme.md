@@ -4,8 +4,6 @@
 
 Utilizar el Agente Investigador de Microsoft 365 Copilot para analizar el mercado laboral, investigar tendencias de contratación, identificar competencias demandadas y estimar rangos salariales utilizando información pública disponible.
 
-Además, se comparará la información obtenida con una descripción de puesto interna para generar recomendaciones concretas de reclutamiento y atracción de talento.
-
 ---
 
 # Escenario
