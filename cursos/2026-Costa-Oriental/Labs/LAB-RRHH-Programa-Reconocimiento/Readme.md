@@ -1,270 +1,388 @@
-# Laboratorio 5: Programa de Reconocimiento y Feedback Positivo con Microsoft 365 Copilot
+# Laboratorio 5: Programa de Reconocimiento Organizacional utilizando Microsoft Forms, OneNote y Microsoft 365 Copilot
 
 ## Objetivo
 
-Utilizar Microsoft 365 Copilot para:
+Utilizar Microsoft Forms, OneNote y Microsoft 365 Copilot para:
 
-- Diseñar un programa de reconocimiento organizacional.
-- Crear un cuaderno compartido de reconocimientos utilizando OneNote.
-- Registrar contribuciones destacadas realizadas por colaboradores.
-- Analizar tendencias positivas mediante Copilot.
-- Generar feedback positivo.
-- Crear mensajes de agradecimiento.
-- Elaborar reconocimientos públicos.
-- Generar nominaciones a programas internos de reconocimiento.
-- Elaborar informes ejecutivos para Recursos Humanos.
+- Crear mecanismos de recopilación de evidencias positivas.
+- Centralizar información proveniente de distintas fuentes.
+- Crear un repositorio de conocimiento organizacional.
+- Utilizar Cuadernos de Copilot para analizar información consolidada.
+- Generar reconocimientos basados en evidencias.
+- Elaborar comunicaciones de agradecimiento.
+- Crear publicaciones para Teams.
+- Generar informes ejecutivos para Recursos Humanos.
+- Diseñar indicadores para programas de reconocimiento.
 
 ---
 
 # Escenario
 
-Costa Oriental desea fortalecer su cultura de reconocimiento.
+Costa Oriental desea fortalecer su cultura de reconocimiento utilizando herramientas de Microsoft 365.
 
-Actualmente los supervisores suelen agradecer o felicitar a los colaboradores de manera informal, pero muchas contribuciones destacadas terminan perdiéndose entre correos electrónicos, conversaciones y reuniones.
+Actualmente las evidencias de contribuciones destacadas se encuentran dispersas en distintas fuentes:
 
-Para resolver este problema, la organización decide crear un cuaderno compartido donde los supervisores registrarán situaciones positivas observadas en su equipo.
+- Encuestas.
+- Correos electrónicos.
+- Reuniones.
+- Comentarios de supervisores.
+- Propuestas de mejora.
+- Felicitaciones de clientes.
 
-Posteriormente, Microsoft 365 Copilot utilizará este conocimiento organizacional para identificar tendencias, generar comunicaciones y apoyar los programas de reconocimiento.
+Para centralizar esta información se creará un cuaderno compartido de OneNote donde los líderes registrarán evidencias positivas observadas dentro de la organización.
 
----
-
-# Principio de Privacidad
-
-Este laboratorio utiliza exclusivamente información cargada voluntariamente por supervisores y responsables de equipo.
-
-No se analizarán:
-
-- Correos privados.
-- Chats personales.
-- Evaluaciones de desempeño.
-- Información médica.
-- Información salarial.
-- Expedientes de personal.
-
-Los registros se utilizarán únicamente para iniciativas de reconocimiento.
+Posteriormente Microsoft 365 Copilot utilizará este repositorio para identificar patrones, generar reconocimientos y elaborar informes.
 
 ---
 
-# Parte 1 – Crear el Cuaderno de Reconocimientos
+# Principios del Laboratorio
+
+En este ejercicio se utilizarán datos ficticios.
+
+Las evidencias podrán incluir:
+
+- Encuestas simuladas.
+- Correos electrónicos ficticios.
+- Resúmenes ficticios de reuniones.
+- Casos de mejora continua.
+- Comentarios de clientes.
+- Propuestas de innovación.
+
+No se utilizará información real de empleados.
+
+---
+
+# Parte 1 – Crear una encuesta utilizando Microsoft Forms
 
 ## Paso 1
 
-Abrir OneNote.
+Abrir Microsoft Forms.
 
-Crear un nuevo cuaderno llamado:
+[Microsoft Forms](https://forms.cloud.microsoft/)
 
-```text
-Reconocimientos Costa Oriental
-```
-
-Guardar el cuaderno en una ubicación compartida de OneDrive o SharePoint accesible para los supervisores.
+Crear un nuevo formulario utilizando Copilot.
 
 ---
 
 ## Paso 2
 
-Crear las siguientes secciones:
-
-```text
-Depósito
-Transporte
-Operaciones
-Administración
-Atención al Cliente
-```
-
----
-
-## Objetivo
-
-Disponer de un repositorio centralizado donde registrar contribuciones positivas.
-
----
-
-# Parte 2 – Diseñar la plantilla estándar
-
-## Paso 3
-
-Abrir Microsoft 365 Copilot Chat.
-
-https://m365.cloud.microsoft/
-
 Utilizar el siguiente prompt:
 
 ```text
-Trabajo en Costa Oriental, una empresa logística y de distribución.
+Genera una encuesta para identificar acciones positivas realizadas por colaboradores de una empresa logística.
 
-Necesito una plantilla estandarizada para registrar reconocimientos de colaboradores en un cuaderno de OneNote.
+La encuesta debe incluir preguntas sobre:
 
-La plantilla debe permitir documentar:
-
-- Fecha.
-- Colaborador.
+- Nombre de la persona reconocida.
 - Área.
-- Supervisor.
-- Valor corporativo relacionado.
-- Descripción objetiva del hecho observado.
+- Situación observada.
 - Impacto generado.
+- Valor corporativo representado.
 - Evidencia disponible.
-- Posibles acciones de reconocimiento.
 
-Presenta la plantilla utilizando títulos y subtítulos para poder copiarla directamente en OneNote.
+Utiliza preguntas cerradas y abiertas.
 ```
+
+---
+
+## Paso 3
+
+Revisar el formulario generado.
+
+Realizar los ajustes necesarios.
+
+Publicar la encuesta.
 
 ---
 
 ## Paso 4
 
-Copiar el resultado generado por Copilot.
+Completar la encuesta varias veces utilizando información ficticia.
 
-Crear una página llamada:
-
-```text
-Plantilla de Reconocimiento
-```
-
-Guardar la plantilla para reutilizarla posteriormente.
+Registrar ejemplos provenientes de distintas áreas de la organización.
 
 ---
 
-# Parte 3 – Crear registros de ejemplo
+# Parte 2 – Crear el cuaderno compartido de OneNote
 
 ## Paso 5
 
-Solicitar a Copilot:
+Abrir OneNote Web.
+
+[OneNote Web](https://onenote.cloud.microsoft/)
+
+> **Importante:** OneNote Web, OneNote Desktop y OneNote Mobile trabajan sobre los mismos cuadernos almacenados en OneDrive o SharePoint. Independientemente de la aplicación utilizada, los usuarios acceden al mismo contenido.
+
+Crear un nuevo cuaderno llamado:
 
 ```text
-Genera 50 registros ficticios de reconocimiento para colaboradores de Costa Oriental.
-
-Distribuye los casos entre:
-
-- Depósito.
-- Transporte.
-- Operaciones.
-- Administración.
-- Atención al Cliente.
-
-Relaciona cada caso con alguno de estos valores corporativos:
-
-- Trabajo en equipo.
-- Seguridad.
-- Orientación al cliente.
-- Innovación.
-- Mejora continua.
-- Compromiso.
-
-Describe hechos concretos y observables.
-
-Evita opiniones generales o evaluaciones subjetivas.
+Programa de Reconocimiento Costa Oriental
 ```
+
+Guardar el cuaderno en OneDrive o SharePoint.
 
 ---
 
 ## Paso 6
 
-Utilizando la plantilla creada, generar algunas páginas de ejemplo dentro de las distintas secciones del cuaderno.
+Verificar dónde se almacena el cuaderno.
 
-Ejemplo:
+Abrir OneDrive.
+
+Localizar el cuaderno recién creado.
+
+Confirmar que el cuaderno se encuentra almacenado dentro de los archivos del usuario.
+
+---
+
+## Paso 7
+
+Compartir el cuaderno con otro participante.
+
+Verificar que ambos usuarios pueden acceder al mismo contenido.
+
+---
+
+## Pregunta para discusión
 
 ```text
-Juan Pérez
-
-Valor corporativo:
-Trabajo en equipo
-
-Situación observada:
-
-Colaboró con personal de Operaciones durante un cierre de inventario para resolver diferencias detectadas.
-
-Impacto:
-
-Se logró finalizar el proceso sin retrasar los despachos previstos para el día siguiente.
+¿Dónde se almacena realmente la información de OneNote?
 ```
+
+---
+
+## Respuesta esperada
+
+```text
+Los cuadernos se almacenan en OneDrive o SharePoint.
+
+OneNote actúa como la aplicación utilizada para visualizar y editar dicho contenido.
+```
+
+---
+
+# Parte 3 – Registrar evidencias organizacionales
+
+## Paso 8
+
+Crear una página llamada:
+
+```text
+Encuestas de Reconocimiento
+```
+
+Copiar varias respuestas obtenidas desde Microsoft Forms.
+
+---
+
+## Paso 9
+
+Abrir Microsoft 365 Copilot Chat.
+
+Solicitar:
+
+```text
+Genera 10 correos ficticios enviados por clientes de una empresa logística agradeciendo acciones destacadas realizadas por colaboradores.
+
+Describe únicamente hechos observables.
+
+Indica el impacto generado para el cliente.
+```
+
+---
+
+## Paso 10
+
+Crear una página llamada:
+
+```text
+Correos de Clientes
+```
+
+Copiar varios correos generados.
+
+---
+
+## Paso 11
+
+Solicitar:
+
+```text
+Genera 10 ejemplos de mejoras operativas implementadas por colaboradores de una empresa logística.
+
+Para cada caso incluye:
+
+- Situación inicial.
+- Acción realizada.
+- Resultado obtenido.
+
+Utiliza información objetiva y observable.
+```
+
+---
+
+## Paso 12
+
+Crear una página llamada:
+
+```text
+Mejoras Operativas
+```
+
+Copiar varios ejemplos generados.
+
+---
+
+## Paso 13
+
+Solicitar:
+
+```text
+Genera 5 resúmenes ficticios de reuniones de Teams donde se destaquen contribuciones positivas realizadas por integrantes del equipo.
+
+Describe únicamente hechos observables.
+```
+
+---
+
+## Paso 14
+
+Crear una página llamada:
+
+```text
+Reuniones de Equipo
+```
+
+Copiar los resúmenes generados.
+
+---
+
+## Paso 15
+
+Solicitar:
+
+```text
+Genera 5 ejemplos de comentarios positivos realizados por supervisores sobre situaciones observadas en el trabajo diario.
+
+Describe:
+
+- Situación.
+- Acción realizada.
+- Resultado generado.
+```
+
+---
+
+## Paso 16
+
+Crear una página llamada:
+
+```text
+Comentarios de Supervisores
+```
+
+Copiar los ejemplos generados.
 
 ---
 
 ## Objetivo
 
-Simular varios meses de reconocimientos registrados por distintos supervisores.
+Crear una base de conocimiento organizacional que reúna evidencias positivas provenientes de múltiples fuentes.
 
 ---
 
-# Parte 4 – Analizar el cuaderno con Copilot
+# Parte 4 – Crear un Cuaderno de Copilot
 
-## Paso 7
+## Paso 17
 
-Abrir Microsoft 365 Copilot Chat.
+Abrir Microsoft 365 Copilot.
+
+Crear un nuevo Cuaderno.
+
+---
+
+## Paso 18
+
+Agregar como referencia el cuaderno de OneNote creado durante el laboratorio.
+
+Asignar el nombre:
+
+```text
+Programa de Reconocimiento Costa Oriental
+```
+
+---
+
+# Parte 5 – Analizar el conocimiento recopilado
+
+## Paso 19
 
 Utilizar el siguiente prompt:
 
 ```text
-Analiza el cuaderno "Reconocimientos Costa Oriental".
+Analiza toda la información disponible en este cuaderno.
 
 Identifica:
 
-- Valores corporativos más representados.
-- Tipos de contribuciones más frecuentes.
-- Áreas con mayor cantidad de reconocimientos.
-- Tendencias positivas observadas.
-- Comportamientos que la organización debería seguir impulsando.
+- Temas positivos más frecuentes.
+- Tipos de contribuciones observadas.
+- Valores corporativos representados.
+- Beneficios generados para la organización.
+- Beneficios generados para clientes y equipos.
 
-Utiliza únicamente la información registrada en el cuaderno.
+Utiliza únicamente la información registrada en las evidencias.
 ```
 
 ---
 
 ## Preguntas para discusión
 
-- ¿Qué valores corporativos aparecen más frecuentemente?
-- ¿Qué tipo de contribuciones reciben más reconocimiento?
-- ¿Existen áreas con baja participación?
-- ¿Qué comportamientos podrían reforzarse?
+- ¿Qué tipos de acciones aparecen con mayor frecuencia?
+- ¿Qué valores corporativos están más representados?
+- ¿Qué beneficios se mencionan repetidamente?
+- ¿Existen áreas con mayor participación?
 
 ---
 
-# Parte 5 – Generar feedback positivo
+# Parte 6 – Generar reconocimientos
 
-## Paso 8
+## Paso 20
 
-Abrir una de las páginas del cuaderno.
-
-Copiar el contenido en Copilot Chat.
-
-Utilizar:
+Utilizar el siguiente prompt:
 
 ```text
-Redacta un feedback positivo profesional basado únicamente en los hechos documentados.
+A partir de las evidencias registradas en este cuaderno, genera un reconocimiento formal.
 
 Incluye:
 
 - Situación observada.
 - Acción realizada.
 - Impacto generado.
-- Reconocimiento de la contribución.
+- Valor corporativo representado.
 
-No agregues información no presente en el registro.
+Utiliza exclusivamente información documentada.
 ```
 
 ---
 
 ## Resultado esperado
 
-Un feedback específico y basado en evidencia.
+Un reconocimiento basado en evidencias registradas dentro del cuaderno.
 
 ---
 
-# Parte 6 – Generar un correo de agradecimiento
+# Parte 7 – Crear un correo de agradecimiento
 
-## Paso 9
+## Paso 21
 
-Utilizar el siguiente prompt:
+Solicitar:
 
 ```text
-Convierte este reconocimiento en un correo de agradecimiento que un supervisor podría enviar al colaborador.
+Convierte este reconocimiento en un correo de agradecimiento para el colaborador.
 
-Utiliza un tono cercano y profesional.
+Utiliza un tono profesional y cercano.
 
-No agregues información que no esté presente en el reconocimiento original.
+No agregues información no documentada.
 ```
 
 ---
@@ -275,20 +393,18 @@ Un borrador listo para utilizar desde Outlook.
 
 ---
 
-# Parte 7 – Crear una publicación para Teams
+# Parte 8 – Crear una publicación para Teams
 
-## Paso 10
+## Paso 22
 
-Utilizar:
+Solicitar:
 
 ```text
 Transforma este reconocimiento en una publicación para Teams.
 
+Destaca la acción realizada y el valor corporativo asociado.
+
 Mantén un tono positivo y profesional.
-
-Destaca el valor corporativo representado.
-
-Evita compartir información personal innecesaria.
 ```
 
 ---
@@ -299,103 +415,73 @@ Una publicación apta para reconocimiento público.
 
 ---
 
-# Parte 8 – Generar nominaciones
+# Parte 9 – Elaborar un informe ejecutivo
 
-## Paso 11
+## Paso 23
 
-Solicitar a Copilot:
-
-```text
-Utilizando este reconocimiento, genera una nominación formal para un programa interno de reconocimiento.
-
-Incluye:
-
-- Nombre de la iniciativa.
-- Valor corporativo demostrado.
-- Evidencia observada.
-- Impacto generado.
-- Justificación de la nominación.
-
-No agregues hechos que no estén documentados.
-```
-
----
-
-## Objetivo
-
-Transformar acciones positivas en reconocimiento formal.
-
----
-
-# Parte 9 – Análisis organizacional
-
-## Paso 12
-
-Solicitar a Copilot:
+Solicitar:
 
 ```text
-Analiza todos los reconocimientos registrados en el cuaderno.
-
-Genera un informe ejecutivo para Recursos Humanos.
+Genera un informe ejecutivo utilizando toda la información registrada en el cuaderno.
 
 Incluye:
 
 - Resumen ejecutivo.
-- Valores corporativos más representados.
-- Áreas con mayor participación.
-- Historias destacadas.
-- Oportunidades para mejorar el programa.
+- Principales contribuciones observadas.
+- Valores corporativos identificados.
+- Casos destacados.
 - Recomendaciones para fortalecer la cultura de reconocimiento.
+
+Indica claramente cuáles conclusiones están respaldadas por los datos disponibles.
 ```
 
 ---
 
-# Parte 10 – Indicadores del programa
+# Parte 10 – Diseñar indicadores
 
-## Paso 13
+## Paso 24
 
-Utilizar:
+Solicitar:
 
 ```text
-Propón indicadores para medir el éxito del programa de reconocimiento.
+Propón indicadores para evaluar un programa de reconocimiento basado en las evidencias registradas en el cuaderno.
 
-Incluye:
+Para cada indicador incluye:
 
-- Nombre del indicador.
+- Nombre.
 - Fórmula.
 - Frecuencia de cálculo.
 - Responsable.
 - Objetivo.
-
-Los indicadores deben poder calcularse utilizando la información registrada en el cuaderno.
 ```
 
 ---
 
-## Resultado esperado
+## Ejemplos de indicadores
 
-Indicadores similares a:
-
-- Reconocimientos por mes.
-- Reconocimientos por área.
+- Evidencias registradas por mes.
 - Participación de supervisores.
+- Reconocimientos generados.
 - Distribución por valor corporativo.
-- Evolución trimestral del programa.
+- Participación por área.
+- Evolución mensual del programa.
 
 ---
 
 # Parte 11 – Validar las conclusiones
 
-## Paso 14
+## Paso 25
 
 Solicitar:
 
 ```text
-Revisa las conclusiones del informe.
+Revisa las conclusiones presentadas en el informe.
 
-Indica cuáles están respaldadas directamente por los datos registrados y cuáles son interpretaciones o recomendaciones.
+Indica cuáles están respaldadas directamente por la evidencia disponible.
 
-Corrige cualquier conclusión que no pueda demostrarse utilizando la información disponible.
+Identifica cuáles corresponden a interpretaciones o recomendaciones.
+
+Corrige cualquier afirmación que no pueda justificarse utilizando la información registrada.
 ```
 
 ---
@@ -404,28 +490,28 @@ Corrige cualquier conclusión que no pueda demostrarse utilizando la informació
 
 Responder las siguientes preguntas:
 
-1. ¿Qué ventajas tiene utilizar un cuaderno compartido frente a analizar correos electrónicos?
-2. ¿Cómo ayuda este enfoque a proteger la privacidad de los colaboradores?
-3. ¿Qué valor aportó Copilot durante el análisis?
-4. ¿Qué controles humanos deberían mantenerse?
-5. ¿Cómo podría evolucionar este programa a nivel corporativo?
-6. ¿Qué indicadores permitirían medir su impacto?
-7. ¿Qué riesgos existirían si se publicaran reconocimientos sin validación previa?
+1. ¿Qué ventajas ofrece OneNote como repositorio de conocimiento organizacional?
+2. ¿Qué diferencia existe entre OneNote y OneDrive?
+3. ¿Qué valor aportó el Cuaderno de Copilot durante el análisis?
+4. ¿Por qué es importante conservar las evidencias originales?
+5. ¿Qué beneficios aporta centralizar información proveniente de distintas fuentes?
+6. ¿Qué controles humanos deberían mantenerse antes de publicar reconocimientos?
+7. ¿Cómo podría ampliarse este programa a nivel corporativo?
 
 ---
 
 # Consideraciones de Uso Responsable
 
-El programa debe:
+La información utilizada debe:
 
 - Basarse en hechos observables.
-- Evitar evaluaciones automáticas del desempeño.
-- Respetar la privacidad de los colaboradores.
-- Mantener revisión humana antes de publicar reconocimientos.
-- Evitar rankings o clasificaciones de personas.
-- Promover transparencia y equidad.
+- Mantener trazabilidad hacia la evidencia original.
+- Evitar conclusiones no respaldadas por los datos.
+- Incorporar revisión humana antes de publicar reconocimientos.
+- Respetar la privacidad de las personas.
+- Evitar rankings o comparaciones entre empleados.
 
-Copilot debe utilizarse como apoyo para el reconocimiento y la comunicación, no para tomar decisiones laborales.
+Copilot debe utilizarse como apoyo para organizar, analizar y comunicar información, no para tomar decisiones laborales.
 
 ---
 
@@ -433,14 +519,15 @@ Copilot debe utilizarse como apoyo para el reconocimiento y la comunicación, no
 
 Al finalizar este laboratorio el alumno será capaz de:
 
-- Diseñar un programa de reconocimiento con Microsoft 365 Copilot.
-- Crear un cuaderno compartido en OneNote.
-- Registrar contribuciones positivas utilizando una plantilla estandarizada.
-- Analizar tendencias organizacionales.
-- Generar feedback positivo.
-- Redactar correos de agradecimiento.
+- Crear formularios utilizando Microsoft Forms y Copilot.
+- Comprender la relación entre OneNote, OneDrive y SharePoint.
+- Utilizar OneNote como repositorio de conocimiento organizacional.
+- Centralizar evidencias provenientes de distintas fuentes.
+- Crear y utilizar Cuadernos de Copilot.
+- Analizar información consolidada.
+- Generar reconocimientos basados en evidencias.
+- Redactar comunicaciones de agradecimiento.
 - Crear publicaciones para Teams.
-- Elaborar nominaciones a programas internos.
-- Generar informes ejecutivos para RRHH.
+- Elaborar informes ejecutivos.
 - Diseñar indicadores de seguimiento.
-- Aplicar criterios de privacidad e IA responsable.
+- Aplicar principios de IA responsable y privacidad.
