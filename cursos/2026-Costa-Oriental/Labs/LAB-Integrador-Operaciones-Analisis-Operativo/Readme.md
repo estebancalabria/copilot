@@ -48,8 +48,7 @@ Diseñar una solución de IA en tres capas que cubra el ciclo completo de una au
 
 ---
 
-# Bloque 1 — Medir: análisis cuantitativo con Copilot en Excel
-
+# Bloque 1 
 **Duración:** 35 minutos.
 
 **Objetivo:** derivar del correo qué hay que relevar, construir la planilla de toma de tiempos y analizarla con IA.
@@ -59,7 +58,7 @@ Diseñar una solución de IA en tres capas que cubra el ciclo completo de una au
 El correo no dice qué columnas necesita la planilla. Hay que deducirlo. Abrí Microsoft 365 Copilot y pegá el correo completo seguido de este prompt:
 
 ```
-A partir del correo anterior, actuá como especialista en Ingeniería Industrial y
+A partir del siguiente relevamiento [INSERTAR RELEVAMIENTo], actuá como especialista en Ingeniería Industrial y
 Lean Manufacturing.
 
 Definí qué datos mínimos se deben registrar en planta para poder auditar la
@@ -70,111 +69,137 @@ análisis sirve.
 
 Máximo 15 columnas. Priorizá lo que permita detectar cuellos de botella,
 desvíos contra tiempo estándar y desperdicios Lean.
+
+Generame las columnas en Bullets
 ```
 
-Revisá la propuesta. Si falta algo relevante, pedí el ajuste antes de avanzar.
+Revisá la propuesta. Si falta algo relevante, pedí el ajuste antes de avanzar. Luego
+
+```
+Utilizando las columnas definidas anteriormente, genera un archivo Excel llamado PLANTILLA_AUDITORIA.xlsx
+```
 
 ## Paso 1.2 — Generar la planilla con datos simulados
 
-Creá un libro nuevo en Excel llamado **`VAL_Toma_Tiempos.xlsx`**, abrí Copilot en Excel y usá:
+Creá un libro nuevo en Excel llamado **`VAL_Toma_Tiempos.xlsx`** copiando el anterior, abrí Copilot en Excel y usá:
 
 ```
-Creá una tabla de toma de tiempos de auditoría de productividad con estas columnas:
-
-ID_Medicion, Fecha, Turno, Linea, Producto, Etapa, Operacion, Tipo_Actividad,
-Operarios, Unidades_Procesadas, Tiempo_Ciclo_Seg, Tiempo_Estandar_Seg,
-Tiempo_Espera_Seg, Paradas_Min, Motivo_Parada, Scrap_Unidades,
-Observacion_Auditor, Auditor.
-
-Generá 80 filas de datos simulados realistas para una planta de manufactura, con:
-- 3 líneas: Linea A, Linea B, Linea C
-- 3 turnos: Mañana, Tarde, Noche
-- 5 etapas por línea
-- Tipo_Actividad con valores: Valor agregado, Necesaria sin valor, Sin valor agregado
-- Motivo_Parada con valores: Falta de material, Falla de equipo, Ajuste de calidad,
-  Cambio de formato, Sin parada
-- Tiempos de ciclo con variabilidad real, algunos por encima del estándar
-- Observaciones del auditor escritas en lenguaje natural, describiendo hechos
-  observables en planta
-
-Concentrá los desvíos más grandes en la Linea B para que el análisis posterior
-tenga hallazgos claros.
+Completá la hoja con 80 filas de mediciones simuladas. Respetá exactamente las columnas, los tipos de dato y las listas de valores ya definidas. No agregues, quites ni renombres columnas. Criterios de generación:
+- Cubrí de forma pareja todas las combinaciones previstas en las listas de valores.
+- Los valores numéricos deben ser realistas y coherentes entre sí dentro de cada fila.
+- La mayoría de las mediciones cerca del comportamiento esperado y una minoría claramente por fuera.
+- Concentrá los casos problemáticos en un subconjunto acotado, para que el análisis posterior encuentre un patrón identificable y no ruido disperso.
+- Si hay campos de texto libre, completalos describiendo un hecho observable concreto que explique los valores de esa fila, sin repetir descripciones entre filas.
 ```
 
-## Paso 1.3 — Enriquecer la planilla con IA
 
-Ahora Copilot clasifica lo que el auditor escribió en texto libre:
+## Paso 1.3 — Analizar
 
-```
-Agregá una columna Desvio_Seg que calcule Tiempo_Ciclo_Seg menos Tiempo_Estandar_Seg.
+### Deducir los KPI de la auditoría
 
-Agregá una columna Desperdicio_Lean que clasifique cada fila según la
-Observacion_Auditor en uno de estos valores: Espera, Transporte, Sobreproceso,
-Inventario, Movimiento, Defectos, Sobreproducción, Ninguno.
-
-Agregá una columna Eficiencia_Pct que calcule Tiempo_Estandar_Seg dividido
-Tiempo_Ciclo_Seg, expresado en porcentaje.
-```
-
-## Paso 1.4 — Analizar
-
-Ejecutá estos prompts uno por uno en Copilot en Excel:
+Antes de calcular nada hay que definir qué se va a medir. Trabajá con el agente **Analista** sobre la planilla.
 
 ```
-¿Qué operación concentra el mayor tiempo improductivo total? Mostrá el detalle
-por línea y turno.
+Analizá la estructura y el contenido de esta planilla de auditoría de
+productividad.
+
+Deducí qué indicadores se pueden calcular realmente con los datos disponibles,
+sin suponer información que no está.
+
+Para cada indicador indicá: nombre, qué mide, cómo se calcula a partir de las
+columnas existentes, unidad y qué decisión permite tomar.
+
+Separá los que se pueden calcular hoy de los que requerirían relevar datos
+adicionales.
 ```
 
+Validá la lista antes de avanzar. Los indicadores que queden acá son los que van a sostener todo el resto del bloque.
+
+---
+
+### Calcular los KPI
+
 ```
-Identificá las operaciones con mayor variabilidad en el tiempo de ciclo y
-explicá por qué esa variabilidad es un problema de productividad.
+Calculá todos los indicadores validados en el paso anterior.
+
+Presentá el resultado en tres niveles: total general, por línea y por etapa u
+operación.
+
+Para cada indicador mostrá el valor, la cantidad de mediciones que lo sustentan
+y la fórmula aplicada.
+
+No estimes ningún valor que no surja de los datos.
 ```
 
 ```
-Calculá qué porcentaje del tiempo total corresponde a actividades sin valor
-agregado, desglosado por línea.
+Generá un documento Word con los KPI calculados, con esta estructura:
+
+1. Alcance del relevamiento: líneas, productos, turnos y cantidad de mediciones.
+2. Definición de cada indicador y su fórmula.
+3. Tabla de resultados generales.
+4. Tablas de resultados por línea y por etapa.
+5. Aclaración de limitaciones: qué no se puede afirmar con estos datos.
 ```
 
+Guardalo como `VAL_KPI_Auditoria.docx`.
+
+---
+
+### Generar el dashboard
+
 ```
-Generá un ranking de las 10 principales oportunidades de mejora ordenadas por
-tiempo improductivo total, indicando línea, operación, tipo de desperdicio e
-impacto estimado en segundos por ciclo.
+Generá un dashboard visual de la auditoría en Word.
+
+Incluí los gráficos que mejor expliquen los resultados: comparación de
+desempeño entre líneas, ranking de operaciones por pérdida de tiempo,
+dispersión de los tiempos medidos y peso relativo de cada tipo de causa.
+
+Cada gráfico debe ir acompañado de una lectura de una sola frase que indique
+qué muestra.
+
+Ordenalo de lo general a lo específico, para que se pueda leer en una reunión
+sin explicación previa.
 ```
+
+Guardalo como `VAL_Dashboard_Auditoria.docx`.
+
+---
+
+### Generar el informe de análisis de mejoras
+
+```
+Con los KPI calculados y el dashboard generado, redactá el informe de análisis
+de oportunidades de mejora, con esta estructura:
+
+1. Situación actual de cada línea, respaldada por indicadores.
+2. Cuellos de botella identificados y el dato que los sustenta.
+3. Causas observadas, agrupadas por categoría, con su peso relativo.
+4. Oportunidades de mejora priorizadas por impacto.
+5. Ahorro potencial estimado de cada una, en tiempo y en capacidad productiva.
+6. Qué falta relevar para cerrar la auditoría de esta línea.
+
+Cada afirmación debe estar respaldada por un número. No incluyas
+recomendaciones que los datos no sustenten.
+```
+
+Guardalo como `VAL_Analisis_Mejoras.docx`.
+
+---
+
+## Entregables del Bloque 1
+
+| Archivo | Contenido |
+|---|---|
+| `PLANTILLA_AUDITORIA.xlsx` | Planilla con las 80 mediciones relevadas |
+| `VAL_KPI_Auditoria.docx` | Indicadores definidos y calculados |
+| `VAL_Dashboard_Auditoria.docx` | Lectura visual de los resultados |
+| `VAL_Analisis_Mejoras.docx` | Oportunidades priorizadas con impacto estimado |
+
+Los cuatro archivos se cargan como fuentes del Notebook en el Bloque 2. Ahí se les suma el contexto cualitativo —procedimientos, observaciones de planta, auditorías anteriores— que es lo que permite pasar del número a la causa.
 
 ## Paso 1.5 — Prompt programado semanal
 
-Durante el relevamiento se cargan mediciones todas las semanas. En lugar de repetir el análisis a mano, se programa.
-
-Creá un **prompt programado** con frecuencia semanal, lunes a las 08:00, con este texto:
-
-```
-Revisá la planilla VAL_Toma_Tiempos.xlsx y generá un informe semanal de auditoría
-de productividad que incluya:
-
-1. Operaciones con mayor desvío contra el tiempo estándar.
-2. Principales motivos de parada y su impacto acumulado en minutos.
-3. Evolución del porcentaje de actividades sin valor agregado respecto de la
-   semana anterior.
-4. Las 5 oportunidades de mejora más relevantes de la semana.
-5. Alertas sobre líneas que empeoraron su eficiencia.
-
-Presentá el resultado en formato ejecutivo, máximo una página.
-```
-
-## Entregable del Bloque 1
-
-| Archivo | Descripción |
-|---|---|
-| `VAL_Toma_Tiempos.xlsx` | Planilla de relevamiento con 80 mediciones y columnas calculadas |
-| `VAL_Analisis_Tiempos.docx` | Resumen cuantitativo exportado desde el análisis de Copilot |
-
-Para el segundo archivo, pedile a Copilot en Word:
-
-```
-Redactá un informe técnico con los hallazgos cuantitativos de la auditoría de
-tiempos de VAL, basado en el análisis anterior. Incluí tablas de cuellos de
-botella, desvíos por línea y ranking de oportunidades.
-```
+Pedirle semanalmente que se generen de vuelta los informes en un prompt programados para ir actualizando los datos
 
 ---
 
@@ -184,7 +209,6 @@ botella, desvíos por línea y ranking de oportunidades.
 
 **Objetivo:** cruzar los números con el contexto cualitativo para producir un diagnóstico de oportunidades y el material que estandariza el proceso.
 
-> **Por qué un Notebook y no Excel:** Excel responde sobre una tabla. El Notebook razona sobre un conjunto de fuentes heterogéneas —planillas, procedimientos, observaciones de planta, auditorías anteriores— y mantiene ese contexto estable a lo largo de toda la investigación. La auditoría no se diagnostica mirando una sola tabla.
 
 ## Paso 2.1 — Generar las fuentes cualitativas
 
