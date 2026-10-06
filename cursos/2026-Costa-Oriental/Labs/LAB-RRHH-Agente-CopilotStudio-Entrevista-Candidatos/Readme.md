@@ -79,6 +79,8 @@ Presentá el resultado en formato estructurado con títulos y viñetas.
 
 # Paso 2: Generar una guía de entrevista
 
+> Este archivo esta disponible en el repositorio en Guia-Entrevista-Analista-RRHH.docx
+
 ## Utilizar el documento como contexto
 
 1. Mantené abierto el archivo `JD-Analista-RRHH.docx`.
@@ -86,8 +88,6 @@ Presentá el resultado en formato estructurado con títulos y viñetas.
 3. Verificá que Copilot esté utilizando el documento abierto como contexto.
 
 ---
-
-## Generar preguntas de entrevista
 
 ## Generar la guía de entrevista
 
@@ -162,21 +162,8 @@ Requisitos:
 Guia-Entrevista-Analista-RRHH.docx
 ```
 
-> Al finalizar este paso tendrás dos documentos diferentes: `JD-Analista-RRHH.docx`, que contiene la descripción del puesto, y `Guia-Entrevista-Analista-RRHH.docx`, que contiene la guía abierta que posteriormente utilizará el agente de Copilot Studio.
-
 ---
-
-# Paso 3: Revisar la guía generada
-
-Antes de crear el agente verificá:
-
-- Que las competencias provengan de la descripción del puesto.
-- Que las preguntas no agreguen requisitos inexistentes.
-- Que todas las preguntas sean relevantes para el puesto.
-- Que exista una explicación del objetivo de cada pregunta.
-
-> En un entorno real, este sería el momento en que Recursos Humanos valida el contenido antes de utilizarlo con candidatos.
-
+> Al finalizar este paso tendrás dos documentos diferentes: `JD-Analista-RRHH.docx`, que contiene la descripción del puesto, y `Guia-Entrevista-Analista-RRHH.docx`, que contiene la guía abierta que posteriormente utilizará el agente de Copilot Studio.
 ---
 
 # Paso 4: Crear el agente en Copilot Studio
