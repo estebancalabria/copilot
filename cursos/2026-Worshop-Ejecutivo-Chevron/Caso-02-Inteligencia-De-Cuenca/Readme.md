@@ -7,7 +7,7 @@
 > Especificar exactamente las fuentes
 
 ```
-Genera una síntesis de monitoreo del entorno de la cuenca neuquina para el período comprendido entre el la fecha de hoy un mes atras
+Genera una síntesis de monitoreo del entorno de la cuenca neuquina para el período comprendido entre el la fecha de hoy exacta hasta un mes atras (incluir la fecha de hoy)
 
 IMPORTANTE
 
