@@ -7,7 +7,7 @@
 > Especificar exactamente las fuentes
 
 ```
-Genera una síntesis de monitoreo del entorno de la cuenca neuquina para el período comprendido entre el 01/09/2026 y el 11/10/2026.
+Genera una síntesis de monitoreo del entorno de la cuenca neuquina para el período comprendido entre el la fecha de hoy un mes atras
 
 IMPORTANTE
 
